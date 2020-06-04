@@ -6,7 +6,7 @@
 
         static void Main(string[] args)
         {
-            Input.Read();
+            Day.Read();
         }
     }
 }

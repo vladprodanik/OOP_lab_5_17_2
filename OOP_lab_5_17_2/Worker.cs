@@ -2,7 +2,7 @@
 
 namespace OOP_lab_5_17_1
 {
-    class Worker
+    abstract class Worker
     {
         private string _initials;
         private string _jobPosition;
@@ -37,18 +37,6 @@ namespace OOP_lab_5_17_1
             }
 
             return new string(ch);
-        }
-
-        public Worker()
-        {
-            _initials = "Не вказано.";
-            _jobPosition = "Не вказано.";
-        }
-
-        public Worker(string initials, string jobPosition)
-        {
-            Initials = UkrainianI(initials);
-            JobPosition = UkrainianI(jobPosition);
         }
     }
 }
